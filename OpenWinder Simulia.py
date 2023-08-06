@@ -162,13 +162,13 @@ def main(path, start_point, end_point, step, angle):
     fig.show()
 
 
-path = "nose.stl"
+path = "Part1.stl"
 start_point = [10,10,0]
 end_point = [0, 0, 0]
 step = 5
 
 
-layer_angles = [89.9, 45, 135]
+layer_angles = [45, 135]
 # angle = 90
 
 main(path, start_point, end_point, step, layer_angles)

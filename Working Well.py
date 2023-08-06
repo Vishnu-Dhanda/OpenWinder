@@ -55,11 +55,8 @@ def plot_stl_mesh_with_slices(stl_file, num_slices):
         j=faces[:, 1],
         k=faces[:, 2],
         color='#d9d9d9',
-<<<<<<< HEAD
+
         opacity=0.8,
-=======
-        opacity=0,
->>>>>>> parent of 04e400a (this is sick)
         lighting=lighting_effects,
         flatshading=True
     )
@@ -153,7 +150,7 @@ def plot_stl_mesh_with_slices(stl_file, num_slices):
             )
 
             fig.add_trace(intersection_trace)
-<<<<<<< HEAD
+
             
     # Select a random face index from the exterior surface
     exterior_faces_indices = np.where(mesh.is_volume)[0]
